@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#table1 td:nth-child(even){
+    background-color: black;
+    padding: 30px;
+}
+#table1 td:nth-child(odd){
+    background-color: white;
+    padding: 30px;
+}
+
+#table2 td:nth-child(odd){
+    background-color: black;
+    padding: 30px;
+}
+#table2 td:nth-child(even){
+    background-color: white;
+    padding: 30px;
+}
+
+#box_caro {
+    width: 600px;
+    margin: 30px 0 0 30px;
+    height: auto;
+    position: absolute;
+}
+
+.container {
+    position: relative;
+}
+ .row1 {
+     width: 62px;
+ }
+ .table_row1 {
+     margin-left: 20px;
+ }
+ P {
+     margin-bottom: 43px;
+ }
+ .text_a {
+     margin-top: 30px;
+ }
+ .container {
+     background-color: orange;
+     margin: auto;
+     width: 540px;
+     height: 540px;
+ }
